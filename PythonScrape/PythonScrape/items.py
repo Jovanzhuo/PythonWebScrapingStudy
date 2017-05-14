@@ -11,4 +11,6 @@ import scrapy
 class PythonscrapeItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+    #pass
+	name = scrapy.Field()
+	population = scrapy.Field()
